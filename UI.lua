@@ -14,9 +14,9 @@ local OrionLib = {
 		Default = {
 			Main = Color3.fromRGB(0, 0, 0),
 			Second = Color3.fromRGB(0, 0, 0),
-			Stroke = Color3.fromRGB(252, 203, 1),
+			Stroke = Color3.fromRGB(247, 255, 0),
 			Divider = Color3.fromRGB(60, 60, 60),
-			Text = Color3.fromRGB(252, 203, 1),
+			Text = Color3.fromRGB(247, 255, 0),
 			TextDark = Color3.fromRGB(255, 255, 255)
 		}
 	},
@@ -585,9 +585,9 @@ local player = game.Players.LocalPlayer
 local rank = getRank(player)
 local data = rankData[rank] or {color = "rgb(174, 255, 1)", icon = ""}
 
-local fullText = "<font color='rgb(252, 203, 1)'>Sander</font> " ..
+local fullText = "<font color='rgb(247, 255, 0)'>Sander</font> " ..
                  "<font color='rgb(255, 255, 255)'>XY「 Grow a garden 」 • </font>" ..
-                 "<font color='rgb(178, 255, 0)'>Summer!</font> " ..
+                 "<font color='rgb(255, 174, 0)'>Summer!</font> " ..
                  "<font color='rgb(255, 255, 255)'> • </font>" ..
                  string.format("<font color='%s'>%s %s </font>", data.color, data.icon, rank)
 
